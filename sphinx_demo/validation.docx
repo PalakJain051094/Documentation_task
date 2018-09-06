@@ -1,0 +1,64 @@
+
+    DataValidation class is for validation of all inputs coming from user
+    
+
+
+        validateAlphaNumeric method check the text(input from user) is alphanumeric or not
+         and text is coming from user_input.py file having method getTopic.
+
+        :param text:text coming from user_input.py
+        :type text:string
+        :param optional
+        :type optional: Boolean
+        :return: True Or False
+        :rtype : Boolean
+
+        
+
+        validateDate method takes text as input form user_input file
+          and check that date should be in d/m/y format
+
+        :param:text
+        :type text: Date Time
+        :param optional
+        :type optional: Boolean
+        :return: True Or False
+        :rtype : Boolean
+
+        
+
+        validateStartAndEndDate method compare that start date and end date coming from
+          user_input.py file , and check that end date should not be greater then
+          start date.
+
+        :param start_date:
+        :type start_date :Date Time
+        :param end_date:
+        :type end_date :DateTime
+        :param optional:False
+        :type optional :Boolean
+        :return: True or False
+        :rtype :Boolean
+        
+
+        validateProgress method take text as input parameter from user_input.py file
+            and check that text should be completed or In-progress.
+
+        :param text:
+        :type text: string
+        :param optional : False
+        :type optional:Boolean
+        :return: True or False
+        :rtype: Boolean
+        
+
+        validateConfidence_level method take level input from user_input.py file
+            checks that level should be high ,low or medium only.
+
+        :param level:
+        :type level:String
+        :param optional: False
+        :type optional:Boolean
+        :return: True or False
+        :rtype:Boolean
+        
